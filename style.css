@@ -1,0 +1,55 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.inputs-box-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-text-to-convert {
+    width: auto;
+    border: solid 2px black;
+    border-radius: 7px;
+}
+
+#convert {
+    margin: 30px;
+    font-size: 20px;
+    border: solid 1px black;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #94d5ee;
+}
+
+#convert:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.result-box-container {
+    width: 100%;
+}
+
+.result-box {
+    margin: auto;
+}
+
+#result {
+    word-break: break-all;
+}
+
